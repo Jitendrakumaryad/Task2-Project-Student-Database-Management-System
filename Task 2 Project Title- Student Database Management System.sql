@@ -1,7 +1,6 @@
 Use student_database;
 
 --- Student Database Management System (1.	Database Setup) 
-
 CREATE TABLE student_table (
     Student_id INT PRIMARY KEY,
     Stu_name TEXT,
@@ -48,7 +47,7 @@ SELECT *
 FROM student_table
 WHERE GPA < 5.0;
 
---- Student Database Management System (6.	Update Student Email and Grade) 
+--- Student Database Management System (6.Update Student Email and Grade) 
 -- -- Student_id 108 (Vikram Kumar).
 
 UPDATE student_table
